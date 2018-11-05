@@ -11,16 +11,13 @@ Za to projektno nalogo bom zajel prvih 3000 najbolj popularnih animejev, rangira
 Podatke bom pobral s strani [MyAnimeList](https://myanimelist.net/topanime.php)
 
 Za vsak film bom zajel:
-* naslov, leto in sezono izida
-* dolžino(št epizod x dolžina epizode), opis in žanre
-* "glasovne igralce" in režiserje
-* MyAnimeList oceno, starostno oceno
-* število glasov
-* Studije, Lokalizatorje
-* Vir (Ali je adaptacija mladinskega romana, stripa, ali originalna zgodba)
+* naslov in leto izida
+* dolžino(št epizod) in tip (film ali serija)
+* MyAnimeList oceno
+* število glasov/ogledov
 
 Delovne hipoteze:
 * Ali je zlata doba animejev že mimo, ali se šele začenja?
-* Ali obstaja kakšen vzorec v spremembi prevladovanja določenega žanra v posameznem desetletju?
-* Ali so originalni animeji bolj uspešni kot adaptirani?
-* Ali so serije namenjene odraslim gledalcem bolj uspešne od tistih, ki so namenjene mlajšim?
+* Ali so bolj popularni animirani filmi, ali serije?
+* Kako dolžina serije vpliva na njen uspeh?
+* V kakšnem razmerju sta število ogledov in MyAnimeList ocena?
