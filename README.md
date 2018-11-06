@@ -11,6 +11,7 @@ Za to projektno nalogo bom zajel prvih 3000 najbolj popularnih animejev, rangira
 Podatke bom pobral s strani [MyAnimeList](https://myanimelist.net/topanime.php)
 
 Za vsak film bom zajel:
+* id 
 * naslov in leto izida
 * dolžino(št epizod) in tip (film ali serija)
 * MyAnimeList oceno
@@ -21,3 +22,5 @@ Delovne hipoteze:
 * Ali so bolj popularni animirani filmi, ali serije?
 * Kako dolžina serije vpliva na njen uspeh?
 * V kakšnem razmerju sta število ogledov in MyAnimeList ocena?
+
+Za pridobitev in obdelavo podatkov sem uporabil kodo, ki jo je profesor Pretnar pripravil za predavanja. Zaradi težav pri zapisu 20-25. html datoteke v csv, je trenutno na repozitoriju samo 1/3 vseh csvjev
