@@ -2,7 +2,6 @@ import csv
 import os
 import re
 import sys
-
 import requests
 
 
@@ -48,13 +47,13 @@ def zapisi_csv(slovarji, imena_polj, ime_datoteke):
 
 
 vzorec = re.compile(
-        r'<span class="lightLink top-anime-rank-text rank\d+?">(?P<rang>\d+?)</span>.*?'
-        r'<a.*?id="(?P<id>#area\d+?)".*?'
-        r'<.*?alt="Anime:(?P<naslov>.*?)".*?>.*?'
-        r'(?P<tip>TV|Movie|Special|OVA|ONA).*?(?P<st_epizod>\(\d+ eps\))<br>.*?'
-        r'\w+\s(?P<leto>\d+?)\s-\s.*?<br>.*?'
-        r'(?P<ogledi>\d*?,?\d*?,*\d*?) members.*?'
-        r'<td.*?></i><span.*?>(?P<ocena>\d\.\d\d)</span></div>.*?',
+        r'<span class=".*?">(?P<rang>\d+?)</span>.*?'
+        r'<a class=".*?" href=".*?" id="#area(?P<id>\d+?)" rel=".*?">.*?'
+        r'<img width="50" height="70" alt="Anime: (?P<naslov>.*?)" class="lazyload" border="0" data-src=".*?" data-srcset=".*?" />.*?'
+        r'(?P<tip>TV|Movie|Special|OVA|ONA)\s+?(?P<st_epizod>\(\d+? eps\))<br>.*?'
+        r'[A-Z][a-z]{2}\s(?P<leto>\d+?)\s-\s[A-Z][a-z]{2}\s\d{4}<br>.*?'
+        r'(?P<ogledi>\d*?,?\d+?,\d{3}) members.*?'
+        r'<td class=".*?"><div class=".*?"><i class=".*?"></i><span class="text on">(?P<ocena>\d\.\d\d)</span></div>.*?',
         re.DOTALL
 )
 
