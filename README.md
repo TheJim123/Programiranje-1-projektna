@@ -11,6 +11,7 @@ Za to projektno nalogo bom zajel prvih 2900-3000 najbolj popularnih animejev, ra
 Podatke bom pobral s strani [MyAnimeList](https://myanimelist.net/topanime.php)
 
 Za vsak film bom zajel:
+* rang (dodal naknadno, a se zdi smiselno to imeti)
 * id 
 * naslov in leto izida
 * dolžino(št epizod) in tip (film ali serija)
@@ -24,3 +25,6 @@ Delovne hipoteze:
 * V kakšnem razmerju sta število ogledov in MyAnimeList ocena?
 
 Za pridobitev in obdelavo podatkov sem uporabil kodo, ki jo je profesor Pretnar pripravil za predavanja.
+
+Kako uporabljati repozitorij:
+Za prenos spletnih strani, s katerih sem črpal podatke je treba pognati koda.py, ki bo poleg tega vse zbrane podatke tudi uredila v csv datoteko. Pri prenosu html zapisov strani se mi je večkrat zgodilo, da nekaterih strani ni pravilno preneslo, zaradi napake "Too many requests", zato tudi prilagam vse pravilno prenešene htmlje in pa že sestavljen csv. Jupyter datoteka še pride...
