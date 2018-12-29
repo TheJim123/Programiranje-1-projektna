@@ -72,7 +72,6 @@ def izloci_podatke_animeja(ujemanje_animeja):
     return podatki_animeja
 
 
-
 for i in range(60):
     k = 50 * i
     url = "https://myanimelist.net/topanime.php?limit={}".format(k)
