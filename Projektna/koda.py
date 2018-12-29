@@ -2,6 +2,7 @@ import csv
 import os
 import re
 import sys
+
 import requests
 
 
@@ -47,13 +48,13 @@ def zapisi_csv(slovarji, imena_polj, ime_datoteke):
 
 
 vzorec = re.compile(
-        r'<span class=".*?">(?P<rang>\d+?)</span>.*?'
-        r'<a class=".*?" href=".*?" id="#area(?P<id>\d+?)" rel=".*?">.*?'
-        r'<img width="50" height="70" alt="Anime: (?P<naslov>.*?)" class="lazyload" border="0" data-src=".*?" data-srcset=".*?" />.*?'
-        r'(?P<tip>TV|Movie|Special|OVA|ONA)\s+?(?P<st_epizod>\(\d+? eps\))<br>.*?'
-        r'[A-Z][a-z]{2}\s(?P<leto>\d+?)\s-\s[A-Z][a-z]{2}\s\d{4}<br>.*?'
-        r'(?P<ogledi>\d*?,?\d+?,\d{3}) members.*?'
-        r'<td class=".*?"><div class=".*?"><i class=".*?"></i><span class="text on">(?P<ocena>\d\.\d\d)</span></div>.*?',
+        r'<span.*?">(?P<rang>\d+?)</span>.*?'
+        r'<a.*?id="#area(?P<id>\d+?)".*?'
+        r'<.*?alt="Anime:(?P<naslov>.*?)".*?>.*?'
+        r'(?P<tip>TV|Movie|Special|OVA|ONA).*?(?P<st_epizod>\(\d+ eps\))<br>.*?'
+        r'\w+\s(?P<leto>\d+?).*?<br>.*?'
+        r'(?P<ogledi>\d*?,*?\d*?,*?\d*?) members.*?</div></div>.*?'
+        r'<td.*?>(?P<ocena>\d+?.\d+?).*?</div>.*?',
         re.DOTALL
 )
 
@@ -87,3 +88,4 @@ for i in range(60):
                 print(ujemanje_animeja.group('naslov'))
         print('dodal {}'.format(i+1))
 zapisi_csv(podatki_animeja, ['rang', 'id', 'naslov', 'tip', 'st_epizod', 'leto', 'ogledi', 'ocena'], 'obdelani-podatki/vsi-animeji.csv')
+#print(len(podatki_animeja))
