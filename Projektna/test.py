@@ -31,18 +31,20 @@ def zapisi_csv(slovarji, imena_polj, ime_datoteke):
             writer.writerow(slovar)
 
 vzorec = re.compile(
-    r'<a.*?id="(?P<id>#area\d+?)".*?'
-    r'<.*?alt="Anime:(?P<naslov>.*?)".*?>.*?'
-    r'(?P<tip>TV|Movie|Special|OVA|ONA).*?(?P<epizode>\(\d+ eps\))<br>.*?'
-    r'\w+\s(?P<leto>\d+?)\s-\s.*?<br>.*?'
-    r'(?P<ogledi>\d*?,?\d*?,*\d*?) members.*?'
-    r'<td.*?></i><span.*?>(?P<ocena>\d\.\d\d)</span></div>.*?',
-    re.DOTALL
+        r'<span class="lightLink top-anime-rank-text rank\d+?">(?P<rang>\d+?)</span>.*?'
+        r'<a.*?id="(?P<id>#area\d+?)".*?'
+        r'<.*?alt="Anime:(?P<naslov>.*?)".*?>.*?'
+        r'(?P<tip>TV|Movie|Special|OVA|ONA).*?(?P<epizode>\(\d+ eps\))<br>.*?'
+        r'\w+\s(?P<leto>\d+?)\s-\s.*?<br>.*?'
+        r'(?P<ogledi>\d*?,?\d*?,*\d*?) members.*?'
+        r'<td.*?></i><span.*?>(?P<ocena>\d\.\d\d)</span></div>.*?',
+        re.DOTALL
 )
 
 
 def izloci_podatke_animeja(ujemanje_animeja):
     podatki_animeja = ujemanje_animeja.groupdict()
+    podatki_animeja['rang'] = podatki_animeja['rang'].strip()
     podatki_animeja['id'] = podatki_animeja['id'].strip()
     podatki_animeja['naslov'] = podatki_animeja['naslov'].replace("&amp;#039;", "'").strip()
     podatki_animeja['tip'] = podatki_animeja['tip'].strip()
@@ -64,11 +66,10 @@ podatki_animeja = []
 
 for i in range(60):
         vsebina = vsebina_datoteke(
-                'C:/Users/Jimmy/Documents/GitHub/programiranje-1/Projektna/top-anime-{}.html'.format(i+1))
+                'C:/Users/Jimmy/Desktop/faks/Programiranje 1/Projektna/testi/top-anime-{}.html'.format(i+1))
         for ujemanje_animeja in vzorec.finditer(vsebina):
                 podatki_animeja.append(izloci_podatke_animeja(ujemanje_animeja))
                 print(ujemanje_animeja.group('naslov'))
         print('dodal {}'.format(i+1))
-zapisi_csv(podatki_animeja, ['id', 'naslov', 'tip', 'epizode',
-                            'leto', 'ogledi', 'ocena'], 'C:/Users/Jimmy/Documents/GitHub/programiranje-1/Projektna/obdelani-podatki/vsi-animeji.csv')
+zapisi_csv(podatki_animeja, ['rang', 'id', 'naslov', 'tip', 'epizode', 'leto', 'ogledi', 'ocena'], 'C:/Users/Jimmy/Desktop/faks/Programiranje 1/Projektna/testi/obdelani-podatki/vsi-animeji.csv')
 # zatakne se pri 25
