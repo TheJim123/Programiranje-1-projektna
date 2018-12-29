@@ -1,7 +1,7 @@
 # Programiranje-1-projektna
 ## Projektna naloga pri predmetu Programiranje 1
 ### Najbolj popularni animeji
-Za to projektno nalogo bom zajel prvih 3000 najbolj popularnih animejev, rangiranih glede na sledečo formulo:
+Za to projektno nalogo bom zajel prvih 2900-3000 najbolj popularnih animejev, rangiranih glede na sledečo formulo:
 * S = Povprečna ocena za anime (mediana).
 * v = Število glasov/ocen za anime = (št. ljudi, ki je ocenilo anime).
 * m = Minimalna količina glasov/ocen, ki je potrebna za izračun vrednosti (trenutni minimum je 50 ocen).
@@ -23,4 +23,4 @@ Delovne hipoteze:
 * Kako dolžina serije vpliva na njen uspeh?
 * V kakšnem razmerju sta število ogledov in MyAnimeList ocena?
 
-Za pridobitev in obdelavo podatkov sem uporabil kodo, ki jo je profesor Pretnar pripravil za predavanja. Zaradi težav pri zapisu 20-25. html datoteke v csv, je trenutno na repozitoriju samo 1/3 vseh csvjev
+Za pridobitev in obdelavo podatkov sem uporabil kodo, ki jo je profesor Pretnar pripravil za predavanja.
