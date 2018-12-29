@@ -1,7 +1,7 @@
 # Programiranje-1-projektna
 ## Projektna naloga pri predmetu Programiranje 1
 ### Najbolj popularni animeji
-Za to projektno nalogo bom zajel prvih 2900-3000 najbolj popularnih animejev, rangiranih glede na sledečo formulo:
+Za to projektno nalogo bom zajel prvih 3000 najbolj popularnih animejev, rangiranih glede na sledečo formulo:
 * S = Povprečna ocena za anime (mediana).
 * v = Število glasov/ocen za anime = (št. ljudi, ki je ocenilo anime).
 * m = Minimalna količina glasov/ocen, ki je potrebna za izračun vrednosti (trenutni minimum je 50 ocen).
