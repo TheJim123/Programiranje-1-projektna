@@ -76,13 +76,13 @@ def izloci_podatke_animeja(ujemanje_animeja):
 for i in range(60):
     k = 50 * i
     url = "https://myanimelist.net/topanime.php?limit={}".format(k)
-    shrani_spletno_stran(url, 'top-anime-{}.html'.format(i+1))
+    shrani_spletno_stran(url, 'htmlji/top-anime-{}.html'.format(i+1))
 
 
 podatki_animeja = []
 for i in range(60):
         vsebina = vsebina_datoteke(
-                'top-anime-{}.html'.format(i+1))
+                'htmlji/top-anime-{}.html'.format(i+1))
         for ujemanje_animeja in vzorec.finditer(vsebina):
                 podatki_animeja.append(izloci_podatke_animeja(ujemanje_animeja))
                 print(ujemanje_animeja.group('naslov'))
