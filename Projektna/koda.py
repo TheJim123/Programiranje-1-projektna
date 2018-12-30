@@ -52,7 +52,7 @@ vzorec = re.compile(
         r'<a.*?id="#area(?P<id>\d+?)".*?'
         r'<.*?alt="Anime:(?P<naslov>.*?)".*?>.*?'
         r'(?P<tip>TV|Movie|Special|OVA|ONA).*?(?P<st_epizod>\(\d+ eps\))<br>.*?'
-        r'\w+\s(?P<leto>\d+?).*?<br>.*?'
+        r'\w+\s(?P<leto>\d+).*?<br>.*?'
         r'(?P<ogledi>\d*?,*?\d*?,*?\d*?) members.*?</div></div>.*?'
         r'<td.*?>(?P<ocena>\d+?.\d+?).*?</div>.*?',
         re.DOTALL
