@@ -730,7 +730,7 @@ rang,id,naslov,tip,st_epizod,leto,ogledi,ocena
 737,4087,Michiko to Hatchin,TV,22,2008,110149,7.8
 738,82,Mobile Suit Gundam 0080: War in the Pocket,OVA,6,1989,32124,7.8
 739,36286,Re:Zero kara Hajimeru Isekai Seikatsu: Memory Snow,OVA,1,2018,78204,7.8
-740,6591,Rurouni Kenshin DVD-BOX Special Ending,Special,1,1,141748,7.8
+740,6591,Rurouni Kenshin DVD-BOX Special Ending,Special,1,2017,141748,7.8
 742,5485,Shin Mazinger Shougeki! Z-hen,TV,26,2009,10361,7.8
 743,18397,Shingeki no Kyojin OVA,OVA,3,2013,191761,7.8
 744,20057,Space☆Dandy,TV,13,2014,186309,7.8
@@ -758,7 +758,7 @@ rang,id,naslov,tip,st_epizod,leto,ogledi,ocena
 767,93,Mobile Suit Gundam SEED,TV,50,2002,118376,7.8
 768,31764,Nejimaki Seirei Senki: Tenkyou no Alderamin,TV,13,2016,173159,7.8
 769,20159,Pokemon: The Origin,Special,4,2013,128085,7.8
-770,6154,Saint Seiya: The Hades Chapter Sanctuary - Yomigaerishi Gold Saint-tachi no Shinwa,Special,2,1,54645,7.8
+770,6154,Saint Seiya: The Hades Chapter Sanctuary - Yomigaerishi Gold Saint-tachi no Shinwa,Special,2,2010,54645,7.8
 772,2104,Seto no Hanayome,TV,26,2007,215269,7.8
 773,1375,Watashi no Ashinaga Ojisan,TV,40,1990,8219,7.8
 774,7044,Zan Sayonara Zetsubou Sensei Bangaichi,OVA,2,2009,28215,7.8
@@ -887,7 +887,7 @@ rang,id,naslov,tip,st_epizod,leto,ogledi,ocena
 899,31711,To LOVE-Ru Darkness 2nd Specials,Special,2,2016,47181,7.8
 900,31483,"Akagami no Shirayuki-hime: Nandemonai Takaramono, Kono Page",OVA,1,2016,38075,7.7
 901,10259,Da Yu Hai Tang,Movie,1,2016,18461,7.7
-902,7305,Detective Conan Movie 10: Promo Special,Movie,1,19,16690,7.7
+902,7305,Detective Conan Movie 10: Promo Special,Movie,1,2015,16690,7.7
 904,19115,Giovanni no Shima,Movie,1,2014,17198,7.7
 905,644,Hachimitsu to Clover Specials,Special,2,2005,24200,7.7
 906,8426,Hourou Musuko,TV,11,2011,77571,7.7
@@ -967,7 +967,7 @@ rang,id,naslov,tip,st_epizod,leto,ogledi,ocena
 981,150,Blood+,TV,50,2005,263606,7.7
 982,60,Chrno Crusade,TV,24,2003,171941,7.7
 983,33988,Demi-chan wa Kataritai,TV,12,2017,206361,7.7
-984,7471,Detective Conan Movie 09: Promo Special,Movie,1,1,33298,7.7
+984,7471,Detective Conan Movie 09: Promo Special,Movie,1,2005,33298,7.7
 986,32979,Flip Flappers,TV,13,2016,116247,7.7
 987,35191,Free! Movie 2: Timeless Medley - Yakusoku,Movie,1,2017,14444,7.7
 988,19671,Free!: FrFr - Short Movie,Movie,7,2013,46499,7.7
@@ -1214,7 +1214,7 @@ rang,id,naslov,tip,st_epizod,leto,ogledi,ocena
 1234,914,Ike! Ina-chuu Takkyuubu,TV,26,1995,10709,7.6
 1235,12725,Initial D: Project D to the Next Stage - Project D e Mukete,Special,1,2007,5195,7.6
 1236,37497,Irozuku Sekai no Ashita kara,TV,13,2018,108332,7.6
-1237,6553,Junjou Romantica Special,Special,1,1,75894,7.6
+1237,6553,Junjou Romantica Special,Special,1,1993,75894,7.6
 1239,1087,Kimagure Orange☆Road,TV,48,1987,23999,7.6
 1240,3466,Kino no Tabi: The Beautiful World - Tou no Kuni,Special,1,2005,27013,7.6
 1241,12487,Kyoukaisenjou no Horizon II,TV,13,2012,60642,7.6
@@ -1256,7 +1256,7 @@ rang,id,naslov,tip,st_epizod,leto,ogledi,ocena
 1277,3785,Evangelion: 3.0 You Can (Not) Redo,Movie,1,2012,190887,7.6
 1278,455,Fantastic Children,TV,26,2004,22559,7.6
 1279,7902,Fullmetal Alchemist: Brotherhood - 4-Koma Theater,Special,16,2009,40348,7.6
-1280,1395,Future GPX Cyber Formula Sin,OVA,5,1,33411,7.6
+1280,1395,Future GPX Cyber Formula Sin,OVA,5,2015,33411,7.6
 1282,36094,Hakumei to Mikochi,TV,12,2018,32738,7.6
 1283,5204,Kara no Kyoukai 6: Boukyaku Rokuon,Movie,1,2008,121949,7.6
 1284,5290,Keroro Gunsou Movie 3: Tenkuu Daikessen de Arimasu!,Movie,1,2008,3254,7.6
@@ -1355,7 +1355,7 @@ rang,id,naslov,tip,st_epizod,leto,ogledi,ocena
 1378,14669,Aura: Maryuuin Kouga Saigo no Tatakai,Movie,1,2013,34007,7.5
 1379,35823,Demi-chan wa Kataritai: Demi-chan no Natsuyasumi,ONA,1,2017,43479,7.5
 1380,2171,Detective Conan Movie 11: Jolly Roger in the Deep Azure,Movie,1,2007,25806,7.5
-1381,2514,Detective Conan OVA 04: Conan and Kid and Crystal Mother,OVA,1,1,4623,7.5
+1381,2514,Detective Conan OVA 04: Conan and Kid and Crystal Mother,OVA,1,2016,4623,7.5
 1383,25687,Digimon Adventure tri. 1: Saikai,Movie,1,2015,81174,7.5
 1384,21743,Donten ni Warau,TV,12,2014,79847,7.5
 1385,21273,Gochuumon wa Usagi Desu ka?,TV,12,2014,134322,7.5
@@ -1505,7 +1505,7 @@ rang,id,naslov,tip,st_epizod,leto,ogledi,ocena
 1533,12187,Carnival Phantasm EX Season,OVA,1,2011,31028,7.5
 1534,8888,Code Geass: Boukoku no Akito 1 - Yokuryuu wa Maiorita,Movie,1,2012,120870,7.5
 1535,2392,Doraemon Movie 26: Nobita no Kyouryuu 2006,Movie,1,2006,3855,7.5
-1536,10765,Hikaru no Go: Tokubetsu-hen - Sabaki no Ichikyoku! Inishie no Hana yo Sake!!,OVA,1,1,38336,7.5
+1536,10765,Hikaru no Go: Tokubetsu-hen - Sabaki no Ichikyoku! Inishie no Hana yo Sake!!,OVA,1,2018,38336,7.5
 1538,34933,Kakegurui,TV,12,2017,330826,7.5
 1539,1289,Kidou Keisatsu Patlabor: New OVA,OVA,16,1990,5482,7.5
 1540,32949,Kuzu no Honkai,TV,12,2017,278445,7.5
@@ -1777,7 +1777,7 @@ rang,id,naslov,tip,st_epizod,leto,ogledi,ocena
 1810,1589,Bartender,TV,11,2006,57558,7.4
 1811,1222,Bokura ga Ita,TV,26,2006,160181,7.4
 1812,7972,"Chi's Sweet Home: Chi to Kocchi, Deau.",OVA,1,2010,5712,7.4
-1813,4138,Chiisana Penguin Lolo no Bouken,OVA,3,10,2273,7.4
+1813,4138,Chiisana Penguin Lolo no Bouken,OVA,3,2002,2273,7.4
 1815,16592,Danganronpa: Kibou no Gakuen to Zetsubou no Koukousei The Animation,TV,13,2013,456672,7.4
 1816,2665,Doraemon Movie 07: Nobita to Tetsujin Heidan,Movie,1,1986,2183,7.4
 1817,15925,Doraemon Movie 33: Nobita no Himitsu Dougu Museum,Movie,1,2013,1533,7.4
@@ -1807,7 +1807,7 @@ rang,id,naslov,tip,st_epizod,leto,ogledi,ocena
 1841,23725,Strike Witches: Operation Victory Arrow,OVA,3,2014,16022,7.4
 1842,30911,Tales of Zestiria the X,TV,12,2016,196311,7.4
 1843,33157,Tanaka-kun wa Itsumo Kedaruge Specials,Special,7,2016,12546,7.4
-1844,1190,Tennis no Ouji-sama: Sonzoku Yama no Hi,OVA,1,1,16255,7.4
+1844,1190,Tennis no Ouji-sama: Sonzoku Yama no Hi,OVA,1,2010,16255,7.4
 1846,37164,Yao Shen Ji 2nd Season,ONA,40,2018,2150,7.4
 1847,970,Yokoyama Mitsuteru Sangokushi,TV,47,1991,3828,7.4
 1848,25755,Yowamushi Pedal: Re:RIDE,Movie,1,2014,7356,7.4
@@ -1992,7 +1992,7 @@ rang,id,naslov,tip,st_epizod,leto,ogledi,ocena
 2029,11266,Ao no Exorcist: Kuro no Iede,Special,1,2011,83482,7.4
 2030,10396,Ben-To,TV,12,2011,208611,7.4
 2031,15109,Cuticle Tantei Inaba,TV,12,2013,68440,7.4
-2032,2512,Detective Conan OVA 02: 16 Suspects,OVA,1,15,1998,7.4
+2032,2512,Detective Conan OVA 02: 16 Suspects,OVA,1,1994,1998,7.4
 2034,2393,Doraemon Movie 24: Nobita to Fushigi Kaze Tsukai,Movie,1,2003,3115,7.4
 2035,6930,Doraemon Movie 29: Shin Nobita no Uchuu Kaitakushi,Movie,1,2009,1726,7.4
 2036,19645,Doraemon Movie 34: Shin Nobita no Daimakyou - Peko to 5-nin no Tankentai,Movie,1,2014,1498,7.4
@@ -2238,7 +2238,7 @@ rang,id,naslov,tip,st_epizod,leto,ogledi,ocena
 2280,10834,Baka to Test to Shoukanjuu: Spinout! Sore ga Bokura no Nichijou,Special,6,2011,25965,7.3
 2281,9120,Beelzebub: Hirotta Akachan wa Daimaou!?,Special,1,2010,27148,7.3
 2282,5356,Canaan,TV,13,2009,156409,7.3
-2283,2515,Detective Conan OVA 05: The Target is Kogoro! The Detective Boys' Secret Investigation,OVA,1,2,153567,7.3
+2283,2515,Detective Conan OVA 05: The Target is Kogoro! The Detective Boys' Secret Investigation,OVA,1,2000,153567,7.3
 2285,2661,Doraemon Movie 13: Nobita to Kumo no Oukoku,Movie,1,1992,2698,7.3
 2286,12875,Ginga e Kickoff!!,TV,39,2012,15578,7.3
 2287,23539,Gudetama,TV,26,2005,55911,7.3
@@ -2308,7 +2308,7 @@ rang,id,naslov,tip,st_epizod,leto,ogledi,ocena
 2353,6149,Chibi Maruko-chan (1995),TV,1,1990,1270,7.3
 2355,1723,Clannad Movie,Movie,1,2007,119849,7.3
 2356,2383,Cybersix,TV,13,1999,5011,7.3
-2357,1369,Detective Conan OVA 01: Conan vs. Kid vs. Yaiba,OVA,1,1,1889,7.3
+2357,1369,Detective Conan OVA 01: Conan vs. Kid vs. Yaiba,OVA,1,1995,1889,7.3
 2359,27825,Dragon Nest: Warriors' Dawn,Movie,1,2014,3348,7.3
 2360,4726,Druaga no Tou: The Sword of Uruk,TV,12,2009,57303,7.3
 2361,6795,Genius Party Beyond,Movie,5,2008,13396,7.3
@@ -2389,7 +2389,7 @@ rang,id,naslov,tip,st_epizod,leto,ogledi,ocena
 2442,3485,Ghost in the Shell: Stand Alone Complex 2nd GIG - Tachikoma na Hibi,Special,26,2004,16635,7.3
 2443,915,Ginga Densetsu Weed,TV,26,2005,9782,7.3
 2444,11077,Hellsing: The Dawn,Special,3,2011,57232,7.3
-2445,10189,Hunter x Hunter Pilot,OVA,1,1,36790,7.3
+2445,10189,Hunter x Hunter Pilot,OVA,1,2008,36790,7.3
 2447,2745,Jigoku Sensei Nube OVA,OVA,3,1998,1927,7.3
 2448,28387,Joukamachi no Dandelion,TV,12,2015,101641,7.3
 2449,3010,Kaiketsu Zorro,TV,52,1996,6890,7.3
@@ -2422,7 +2422,7 @@ rang,id,naslov,tip,st_epizod,leto,ogledi,ocena
 2476,30641,Yankee-kun na Yamada-kun to Megane-chan to Majo,Special,1,2015,12265,7.3
 2477,17917,Danball Senki Wars,TV,37,2013,2664,7.2
 2478,2748,Dash! Kappei,TV,65,1981,3480,7.2
-2479,2513,Detective Conan OVA 03: Conan and Heiji and the Vanished Boy,OVA,1,23,3129,7.2
+2479,2513,Detective Conan OVA 03: Conan and Heiji and the Vanished Boy,OVA,1,2002,3129,7.2
 2481,2030,El Cazador de la Bruja,TV,26,2007,38902,7.2
 2482,376,"Elfen Lied: Tooriame nite Arui wa, Shoujo wa Ikani Shite Sono Shinjou ni Itatta ka? - Regenschauer",Special,1,2005,142284,7.2
 2483,1126,Figure 17: Tsubasa &amp;amp; Hikaru,TV,13,2001,8970,7.2
@@ -2456,7 +2456,7 @@ rang,id,naslov,tip,st_epizod,leto,ogledi,ocena
 2512,30205,Aoharu x Kikanjuu,TV,12,2015,143884,7.2
 2513,24727,Baka to Test to Shoukanjuu Ni!: Mahou Hideyoshi Hideyoshi,Special,1,2011,15226,7.2
 2514,3087,Cencoroll,Movie,1,2009,67977,7.2
-2515,6198,Detective Conan OVA 08: High School Girl Detective Sonoko Suzuki's Case Files,OVA,1,4,35368,7.2
+2515,6198,Detective Conan OVA 08: High School Girl Detective Sonoko Suzuki's Case Files,OVA,1,1996,35368,7.2
 2517,2987,Ginga Hyouryuu Vifam,TV,46,1983,2066,7.2
 2518,2899,Higurashi no Naku Koro ni Special: Nekogoroshi-hen,Special,1,2007,54779,7.2
 2519,6463,Hoshi wo Katta Hi,Movie,1,2006,4411,7.2
@@ -2479,7 +2479,7 @@ rang,id,naslov,tip,st_epizod,leto,ogledi,ocena
 2536,10448,Rain Town,ONA,1,2011,16032,7.2
 2537,22865,Rokujouma no Shinryakusha!?,TV,12,2014,114541,7.2
 2538,21561,Ryuugajou Nanana no Maizoukin,TV,11,2014,147495,7.2
-2539,3624,Seimei no Kagaku: Micro Patrol,TV,26,1,3742,7.2
+2539,3624,Seimei no Kagaku: Micro Patrol,TV,26,1999,3742,7.2
 2541,866,Slayers Premium,Movie,1,2001,15083,7.2
 2542,33286,Strike the Blood II,OVA,8,2016,83021,7.2
 2543,3000,Taiho Shichau zo: Full Throttle,TV,23,2007,6327,7.2
@@ -2714,7 +2714,7 @@ rang,id,naslov,tip,st_epizod,leto,ogledi,ocena
 2775,1538,Pumpkin Scissors,TV,24,2006,30149,7.2
 2776,32094,Reikenzan: Hoshikuzu-tachi no Utage,TV,12,2016,56568,7.2
 2777,1835,Ryuusei no Rockman,TV,55,2006,8800,7.2
-2778,3186,Sekai Meisaku Douwa: Hakuchou no Mizuumi,Movie,1,1,1623,7.2
+2778,3186,Sekai Meisaku Douwa: Hakuchou no Mizuumi,Movie,1,1978,1623,7.2
 2780,79,Shuffle!,TV,24,2005,201203,7.2
 2781,2583,Soukou Kihei Votoms: The Last Red Shoulder,OVA,1,1985,2510,7.2
 2782,37492,Steins;Gate 0: Kesshou Takei no Valentine - Bittersweet Intermedio,Special,1,2018,32576,7.2
@@ -2758,7 +2758,7 @@ rang,id,naslov,tip,st_epizod,leto,ogledi,ocena
 2821,3221,Shakugan no Shana Movie Special,Movie,1,2007,21404,7.2
 2822,5702,Sora wo Miageru Shoujo no Hitomi ni Utsuru Sekai,TV,9,2009,30363,7.2
 2823,33036,Suki ni Naru Sono Shunkan wo.: Kokuhaku Jikkou Iinkai,Movie,1,2016,41872,7.2
-2824,4162,Taiho Shichau zo: Nagisa no Koutsuu Yuudou,Special,1,1,50269,7.2
+2824,4162,Taiho Shichau zo: Nagisa no Koutsuu Yuudou,Special,1,2015,50269,7.2
 2826,37579,Tonari no Kyuuketsuki-san,TV,12,2018,38482,7.2
 2827,16742,Watashi ga Motenai no wa Dou Kangaetemo Omaera ga Warui!,TV,12,2013,383457,7.2
 2828,24591,Youkai Watch Movie 1: Tanjou no Himitsu da Nyan!,Movie,1,2014,2082,7.2
@@ -2780,7 +2780,7 @@ rang,id,naslov,tip,st_epizod,leto,ogledi,ocena
 2844,395,Gantz 2nd Stage,TV,13,2004,111454,7.2
 2845,8120,Gotou ni Naritai.,Movie,1,1995,1596,7.2
 2846,1016,Gunnm,OVA,2,1993,31760,7.2
-2847,33335,Hajimete no Eigo: Nippon Mukashibanashi,OVA,18,0,10223,7.2
+2847,33335,Hajimete no Eigo: Nippon Mukashibanashi,OVA,18,2010,10223,7.2
 2849,16033,Karneval (PV),OVA,1,2012,13914,7.2
 2850,1413,Lupin III: Alcatraz Connection,Special,1,2001,4393,7.2
 2851,1429,Lupin III: Nusumareta Lupin,Special,1,2004,3558,7.2

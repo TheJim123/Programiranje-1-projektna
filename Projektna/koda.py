@@ -52,7 +52,7 @@ vzorec = re.compile(
         r'<a.*?id="#area(?P<id>\d+?)".*?'
         r'<.*?alt="Anime:(?P<naslov>.*?)".*?>.*?'
         r'(?P<tip>TV|Movie|Special|OVA|ONA).*?(?P<st_epizod>\(\d+ eps\))<br>.*?'
-        r'\w+\s(?P<leto>\d+).*?<br>.*?'
+        r'\w+\s(?P<leto>\d{4}).*?<br>.*?'
         r'(?P<ogledi>\d*?,*?\d*?,*?\d*?) members.*?</div></div>.*?'
         r'<td.*?>(?P<ocena>\d+?.\d+?).*?</div>.*?',
         re.DOTALL
@@ -73,10 +73,10 @@ def izloci_podatke_animeja(ujemanje_animeja):
         return podatki_animeja
 
 
-for i in range(60):
-        k = 50 * i
-        url = "https://myanimelist.net/topanime.php?limit={}".format(k)
-        shrani_spletno_stran(url, 'htmlji/top-anime-{}.html'.format(i+1))
+#for i in range(60):
+#        k = 50 * i
+#        url = "https://myanimelist.net/topanime.php?limit={}".format(k)
+#        shrani_spletno_stran(url, 'htmlji/top-anime-{}.html'.format(i+1))
 
 
 podatki_animeja = []
