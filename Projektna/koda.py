@@ -88,8 +88,8 @@ for i in range(60):
                 #print(ujemanje_animeja.group('naslov'))
         #print('dodal {}'.format(i+1))
 zapisi_csv(podatki_animeja, ['rang', 'id', 'naslov', 'tip', 'st_epizod', 'leto', 'ogledi', 'ocena'], 'obdelani-podatki/vsi-animeji.csv')
-print(len(podatki_animeja))
-print(podatki_animeja)
+#print(len(podatki_animeja))
+#print(podatki_animeja)
 
 serije = []
 for anime in podatki_animeja:
