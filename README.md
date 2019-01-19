@@ -27,4 +27,5 @@ Delovne hipoteze:
 Za pridobitev in obdelavo podatkov sem uporabil kodo, ki jo je profesor Pretnar pripravil za predavanja.
 
 Kako uporabljati repozitorij:
-Za prenos spletnih strani, s katerih sem črpal podatke je treba pognati koda.py, ki bo poleg tega vse zbrane podatke tudi uredila v csv datoteko. Pri prenosu html zapisov strani se mi je večkrat zgodilo, da nekaterih strani ni pravilno preneslo, zaradi napake "Too many requests", zato tudi prilagam vse pravilno prenešene htmlje in pa že sestavljen csv. Jupyter datoteka še pride...
+Za prenos spletnih strani, s katerih sem črpal podatke je treba pognati koda.py, ki bo poleg tega vse zbrane podatke tudi uredila v csv datoteko. Pri prenosu html zapisov strani se mi je večkrat zgodilo, da nekaterih strani ni pravilno preneslo, zaradi napake "Too many requests", zato tudi prilagam vse pravilno prenešene htmlje in pa že sestavljen csv.
+Projektna naloga se nahaja v datoteki Projekt.ipynb
