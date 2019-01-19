@@ -21,7 +21,7 @@ Za vsak film bom zajel:
 Delovne hipoteze:
 * Ali je zlata doba animejev že mimo, ali se šele začenja?
 * Ali so bolj popularni animirani filmi, ali serije?
-* Kako dolžina serije vpliva na njen uspeh?
+* Kako dolžina serije vpliva na njeno popularnost?
 * V kakšnem razmerju sta število ogledov in MyAnimeList ocena?
 
 Za pridobitev in obdelavo podatkov sem uporabil kodo, ki jo je profesor Pretnar pripravil za predavanja.
