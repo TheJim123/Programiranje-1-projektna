@@ -48,11 +48,12 @@ def zapisi_csv(slovarji, imena_polj, ime_datoteke):
 
 
 vzorec = re.compile(
-        r'<span.*?">(?P<rang>\d+?)</span>.*?'
-        r'<a.*?id="#area(?P<id>\d+?)".*?'
-        r'<.*?alt="Anime:(?P<naslov>.*?)".*?>.*?'
-        r'(?P<tip>TV|Movie|Special|OVA|ONA).*?(?P<st_epizod>\(\d+ eps\))<br>.*?'
-        r'\w+\s(?P<leto>\d{4}).*?<br>.*?'
+        r'<span class=".*?rank\d">(?P<rang>\d+?)</span>.*?'
+        r'<a class=".*?" href=".*?" id="(?P<id>#area\d+?)" rel=".*?".*?'
+        r'<div class=".*?"><a .*?>(?P<naslov>.*?)</a>.*?</div><br><div.*?>.*?'
+        r'(?P<tip>\w+?) '
+        r'(?P<st_epizod>\(\d* eps\))<br>.*?'
+        r'(?P<leto>\d{4}) - .*?<br>.*?'
         r'(?P<ogledi>\d*?,*?\d*?,*?\d*?) members.*?</div></div>.*?'
         r'<td.*?>(?P<ocena>\d+?.\d+?).*?</div>.*?',
         re.DOTALL
@@ -73,10 +74,10 @@ def izloci_podatke_animeja(ujemanje_animeja):
         return podatki_animeja
 
 
-for i in range(60):
-        k = 50 * i
-        url = "https://myanimelist.net/topanime.php?limit={}".format(k)
-        shrani_spletno_stran(url, 'htmlji/top-anime-{}.html'.format(i+1))
+#for i in range(60):
+#        k = 50 * i
+#        url = "https://myanimelist.net/topanime.php?limit={}".format(k)
+#        shrani_spletno_stran(url, 'htmlji/top-anime-{}.html'.format(i+1))
 
 
 podatki_animeja = []
@@ -85,11 +86,9 @@ for i in range(60):
                 'htmlji/top-anime-{}.html'.format(i+1))
         for ujemanje_animeja in vzorec.finditer(vsebina):
                 podatki_animeja.append(izloci_podatke_animeja(ujemanje_animeja))
-                #print(ujemanje_animeja.group('naslov'))
         #print('dodal {}'.format(i+1))
 zapisi_csv(podatki_animeja, ['rang', 'id', 'naslov', 'tip', 'st_epizod', 'leto', 'ogledi', 'ocena'], 'obdelani-podatki/vsi-animeji.csv')
-#print(len(podatki_animeja))
-#print(podatki_animeja)
+print(len(podatki_animeja))
 
 serije = []
 for anime in podatki_animeja:
