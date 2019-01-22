@@ -74,10 +74,10 @@ def izloci_podatke_animeja(ujemanje_animeja):
         return podatki_animeja
 
 
-#for i in range(60):
-#        k = 50 * i
-#        url = "https://myanimelist.net/topanime.php?limit={}".format(k)
-#        shrani_spletno_stran(url, 'htmlji/top-anime-{}.html'.format(i+1))
+for i in range(60):
+        k = 50 * i
+        url = "https://myanimelist.net/topanime.php?limit={}".format(k)
+        shrani_spletno_stran(url, 'htmlji/top-anime-{}.html'.format(i+1))
 
 
 podatki_animeja = []
@@ -86,13 +86,11 @@ for i in range(60):
                 'htmlji/top-anime-{}.html'.format(i+1))
         for ujemanje_animeja in vzorec.finditer(vsebina):
                 podatki_animeja.append(izloci_podatke_animeja(ujemanje_animeja))
-        #print('dodal {}'.format(i+1))
+        print('dodal {}'.format(i+1))
 zapisi_csv(podatki_animeja, ['rang', 'id', 'naslov', 'tip', 'st_epizod', 'leto', 'ogledi', 'ocena'], 'obdelani-podatki/vsi-animeji.csv')
-print(len(podatki_animeja))
 
 serije = []
 for anime in podatki_animeja:
         if anime['tip'] == 'TV':
                 serije.append(anime)
-print(serije)
 zapisi_csv(serije, ['rang', 'id', 'naslov', 'tip', 'st_epizod', 'leto', 'ogledi', 'ocena'], 'obdelani-podatki/vse-anime-serije.csv')
